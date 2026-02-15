@@ -1,0 +1,6 @@
+1  streamlit
+2  numpy
+3  pandas
+4  scikit-learn
+5  xgboost
+6  joblib
