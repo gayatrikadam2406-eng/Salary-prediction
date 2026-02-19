@@ -32,7 +32,6 @@ df = pd.DataFrame({
     "Job Title":[job_title],
     "Years of Experience":[years_of_exp]
 })
-
 if st.button("Predict"):
   for col in encoder:
     df[col] = encoder[col].transform(df[col])
